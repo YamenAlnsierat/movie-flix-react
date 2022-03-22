@@ -7,6 +7,7 @@ function MovieItem({movie}){
             <div>
                 {movie.genre}
             </div>
+            <img src={movie.imageUrl} alt='moviepicture' />
         </article>
     )
 }

@@ -11,7 +11,7 @@ function MovieList(){
     }, []);
 
     const listMovies = async() => {
-        const url = "https://movie-flix-api-development.azurewebsites.net/api/v1/movies";
+        const url = "https://movie-flix-api.azurewebsites.net/api/v1/movies";
 
         try {
             const response = await fetch(url, {method:'GET',});
